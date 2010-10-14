@@ -1,0 +1,1 @@
+This application will be used to check ladder rankings of accounts on the private starcraft2 league at starcraftdream.com.  Players will be able to see where they rank amongst their competitors.
