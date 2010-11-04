@@ -1,0 +1,10 @@
+
+body{
+	background: url('../images/background.jpg') no-repeat top left;
+}
+img {
+	border: none;
+}
+#identity{
+	margin: 10px auto;
+}
