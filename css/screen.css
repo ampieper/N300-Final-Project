@@ -4,7 +4,37 @@ body{
 }
 img {
 	border: none;
+	margin: 0;
+	padding: 0;
 }
 #identity{
-	margin: 10px auto;
+	margin:auto;
+	width: 245px;
+	padding: 0;
+}
+.main_container{
+	width: 320px;
+}
+.main_container table{
+	margin: 10px auto 0;
+	padding: 0;
+	width: 245px;
+	border-collapse: collapse;
+}
+.light, .dark{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+.light{
+	background: url('../images/bg25.png');
+}
+.dark{
+	background: url('../images/bg60.png');
+}
+.thead{
+	background: url('../images/bg90.png');
+	padding: 0;
+	margin: 0;
+	height: 28px;
 }
