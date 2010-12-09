@@ -1,11 +1,19 @@
 
 body{
 	background: url('../images/background.jpg') no-repeat top left;
+	font-family: "Gotham", "Century Gothic", Arial, sans-serif;
+	color: #bcbcbc;
+	font-size: 13pt;
 }
 img {
 	border: none;
 	margin: 0;
 	padding: 0;
+}
+@font-face{
+	font-family: 'Gotham'; 
+	src: url('Gotham-Medium.otf');
+	src: local("Gotham-Medium"), url('Gotham-Medium.otf') format("opentype");
 }
 #identity{
 	margin: 15px auto;
@@ -25,20 +33,58 @@ img {
 	width: 245px;
 	border-collapse: collapse;
 }
+.user_rank{
+	width: 30px;
+	text-align: center;
+}
 .light, .dark{
 	height: 50px;
 	padding: 0;
 	margin: 0;
 }
 .light{
-	background: url('../images/bg25.png');
+	background: url('../images/bg45.png');
 }
 .dark{
-	background: url('../images/bg60.png');
+	background: url('../images/bg80.png');
 }
-.thead{
-	background: url('../images/bg90.png');
+#league_options{
+	width: 245px;
+	margin: 0 auto;
 	padding: 0;
-	margin: 0;
-	height: 28px;
+}
+#league_options ul li{
+	display: inline-block;
+	list-style: none;
+	height: 29px;
+	width: 48px;
+	padding: 0;
+	margin-left: 20px;
+}
+#league_options a{
+	height: 29px;
+	text-indent: -9999px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+#league_1v1{
+	background-image: url('../images/league_sprite1v1.png');
+}
+#league_2v2{
+	background-image: url('../images/league_sprite2v2.png');
+}
+.active{
+	background-position: 0 29px;
+}
+#league_1v1:active{
+	background-position: 0 29px;
+}
+#league_2v2:active{
+	background-position: 0 29px;
+}
+#view_standings{
+	width: 245px;
+	margin: 15px auto 0;
+	
 }
