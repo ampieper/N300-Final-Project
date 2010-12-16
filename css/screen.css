@@ -1,6 +1,6 @@
 
 body{
-	background: url('../images/background.jpg') no-repeat top left;
+	background: url('../images/background2.jpg') repeat top left;
 	font-family: "Gotham", "Century Gothic", Arial, sans-serif;
 	color: #bcbcbc;
 	font-size: 13pt;
@@ -83,8 +83,18 @@ img {
 #league_2v2:active{
 	background-position: 0 29px;
 }
-#view_standings{
+#view_standings_1v1, #view_standings_2v2{
 	width: 245px;
-	margin: 15px auto 0;
-	
+	margin: 15px auto 15px;
+}
+#l1v1{
+	display: block;
+}
+#l2v2{
+}
+.user_stats{
+	font-size: 11pt;
+}
+.user_name{
+	width: 125px;
 }

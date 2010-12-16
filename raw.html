@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>StarCraft Dream League Mobile</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="images/icon.png" rel="apple-touch-icon" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="Keywords" content="StarCraft, SCD, StarCraft Dream, StarCraft II, league, competitive gaming" />
+<meta name="Description" content="StarCraft Dream League information for mobile devices.  Users can see where they stand among other players and view profiles on the go." />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="icon" href="images/favicon.png" />
+<link rel="shortcut icon" href="images/favicon.png" />
+<link href="css/screen.css" rel="stylesheet" type="text/css" />
+
+
+<script>
+	window.scrollTo(0, 1);  
+</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	
+		function switchpanes(fromid, toid) {
+		$("#"+fromid)[0].style.display="none";
+		$("#"+toid)[0].style.display="inline";
+	}
+</script>
+
+</head>
+
+<body>
+	<div class="main_container">
+		<div id="identity">
+			<a href="index.html"><img src="images/logo.png" alt="Home" /></a>
+		</div>
+		
+		<div id="l1v1">
+			<div id="league_options">
+				<ul>
+					<li id="league_1v1" class="active"><a href="#" onfocus="this.blur()" onclick="switchpanes('l2v2', 'l1v1'); return false;">1v1</a></li>
+					<li id="league_2v2" class="static"><a href="#" onfocus="this.blur()" onclick="switchpanes('l1v1', 'l2v2'); return false;">2v2</a></li>
+				</ul>
+			</div>
+			<table>
+				<tr class="light">
+					<td class="user_rank">1</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">aBstract</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="dark">
+					<td class="user_rank">2</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">insaNe</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="light">
+					<td class="user_rank">3</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">absolution</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="dark">
+					<td class="user_rank">4</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">DEAP</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="light">
+					<td class="user_rank">5</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">eNtitY</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>			
+			</table>
+			
+			<div id="view_standings_1v1">
+				<a href=""><img src="images/view_standings.png" alt="View Complete Standings"/></a>
+			</div>
+		</div>
+			
+
+		<div id="l2v2" style="display: none;">
+			<div id="league_options">
+				<ul>
+					<li id="league_1v1" class="static"><a href="#" onfocus="this.blur()" onclick="switchpanes('l2v2', 'l1v1');return false;">1v1</a></li>
+					<li id="league_2v2" class="active"><a href="#" onfocus="this.blur()" onclick="switchpanes('l1v1', 'l2v2');return false;">2v2</a></li>
+				</ul>
+			</div>
+			<table id="l2v2">
+				<tr class="light">
+					<td class="user_rank">1</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">Team Name</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="dark">
+					<td class="user_rank">2</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">Team Name</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="light">
+					<td class="user_rank">3</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">Team Name</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="dark">
+					<td class="user_rank">4</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">Team Name</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>
+				<tr class="light">
+					<td class="user_rank">5</td>
+					<td class="user_class"><img src="images/r_diamond.png" alt="" /></td>
+					<td class="user_name">Team Name</td>
+					<td class="user_stats">23-4 <br />1450</td>
+				</tr>			
+			</table>
+			
+			<div id="view_standings_2v2">
+				<a href=""><img src="images/view_standings.png" alt="View Complete Standings"/></a>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
